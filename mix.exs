@@ -44,7 +44,7 @@ defmodule Ecto.Mixfile do
 
      # Drivers
      {:db_connection, "~> 1.0", optional: true},
-     {:postgrex, "~> 0.12.0", optional: true},
+     {:postgrex,  git: "https://github.com/ThisisGurwinder/postgrex.git"},
      {:mariaex, "~> 0.8.0", optional: true},
 
      # Optional
